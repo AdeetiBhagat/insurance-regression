@@ -1,4 +1,5 @@
 import unittest
+import os
 import pandas as pd
 from regression_model import load_data, preprocess_data, train_model
 
