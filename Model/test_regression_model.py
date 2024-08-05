@@ -19,7 +19,7 @@ df = pd.DataFrame(data)
 class TestRegressionModel(unittest.TestCase):
 
     def test_load_data(self):
-        df_loaded = load_data('insurance-1.csv')
+        df_loaded = load_data('../Data/insurance-1.csv')
         self.assertIsInstance(df_loaded, pd.DataFrame, "Loaded data is not a DataFrame")
 
     def test_preprocess_data(self):
